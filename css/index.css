@@ -1,0 +1,356 @@
+*,*:after,*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --pri: #0011FF;
+  --black: #FFF;
+  --white: #000;
+  --dark: #e8e9ea;
+  --light: #212529;
+}
+/* root */
+#root {
+  background: var(--dark);
+  padding: 0 10%;
+}
+@media (max-width:992px){
+  #root {
+    padding: 0 5%;
+  }
+}
+/* ----header---- */
+header {
+  position: fixed;
+  width: 80%;
+  z-index: 999;
+}
+.navbar {
+  background: rgba(216, 217, 218,.7);
+  position: relative;
+}
+.navbar-brand {
+  width: 25%;
+}
+#show {
+  position: absolute;
+  right: 0;
+}
+.nav-link {
+  color: var(--white);
+  font-size: 1.5rem;
+  transition: .6s;
+}
+.nav-link:hover {
+  color: var(--pri);
+  font-size: 1.8rem;
+}
+@media (max-width: 992px){
+  header {
+    width: 90%;
+  }
+  .navbar-brand {
+    width: 30%;
+  }
+  .navbar-toggler{
+   background: var(--white);
+    position: fixed;
+    right: 5%;
+  }
+  #show {
+    background: rgba(216, 217, 218,.7);
+    padding: 10px;
+    border-radius: 15px;
+    top: 72%;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    transition: .6s;
+  }
+  .nav-link:hover {
+    font-size: 1.3rem;
+  }
+}
+/* ----home---- */
+#home {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  padding: 100px 40px 0;
+}
+#home .myImg,.me {
+  width: 50%;
+}
+#home .myImg img {
+  position: relative;
+  right: -20%;
+  width: 60%;
+  z-index: 0;
+}
+#home .me h1 .mn {
+  font-size: 1.8rem;
+}
+#home .me h1 .nm {
+  color: var(--pri);
+}
+#home .me p{
+  margin-top: 20px;
+  font-size: 1.7rem;
+}
+#home .me .btn {
+  background: var(--pri);
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  transition: .6s;
+}
+#home .me .btn:hover {
+  border: solid var(--pri) 2px;
+  background: var(--black);
+  color: var(--pri);
+  transform: scale(1.2);
+}
+@media (max-width:992px){
+  #home {
+    display: block;
+    padding: 90px 20px 20px;
+  }
+  #home .myImg,.me {
+    width: 70%;
+  }
+  #home .myImg img {
+    left: 0;
+  }
+  #home .me {
+    position: relative;
+    left: 20%;
+  }
+  #home .me h1 .mn {
+    font-size: 1.2rem;
+  }
+  #home .me h1 .nm {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+  #home .me p{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-family: Georgia;
+  }
+  #home .me .btn {
+    font-size: .8rem;
+  }
+}
+/* ----about me---- */
+#about_me {
+  background: url('../images/aboutMeL.png') no-repeat center;
+  background-size: 100% 100%;
+  padding: 100px 10% 10% 10%;
+  text-align: center;
+}
+#about_me h1 {
+  color: var(--pri);
+  margin-bottom: 40px;
+  text-shadow: var(--black) 2px 5px 10px;
+}
+#about_me p {
+  color: var(--white);
+}
+#about_me .mar {
+  color: var(--pri);
+  font-family: Georgia;
+  text-shadow: var(--black) -2px -2px 1px;
+}
+/* ----contact---- */
+#contact {
+  background: url('../images/conL.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px 2% 5% 2%;
+}
+#contact h1 {
+  color: var(--pri);
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: var(--black) 2px 5px 10px;
+  width: 100%;
+}
+#contact a {
+  text-decoration: none;
+  width: 23%;
+}
+#contact .con {
+  background: var(--pri);
+  border-radius: 15px;
+  color: var(--white);
+  padding: 20% 0;
+  text-align: center;
+  transition: .6s;
+}
+#contact .con:hover {
+  background: transparent;
+  border: 2px solid var(--pri);
+  color: var(--pri);
+  transform: scale(1.1);
+}
+#contact .con i{
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+#contact .con p{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+@media (max-width:992px) {
+  #contact a {
+    width: 40%;
+  }
+  #contact .con {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width:576px) {
+  #contact a {
+    width: 75%;
+  }
+}
+/* ----skills ---- */
+#skills {
+  background: url('../images/aboutMeL.png') no-repeat center;
+  background-size: 100% 100%;
+  color: var(--white);
+  padding: 100px 2% 2% 2%;
+  text-align: center;
+}
+#skills h1 {
+  color: var(--pri);
+  margin-bottom: 40px;
+  text-shadow: var(--black) 2px 5px 10px;
+}
+#skills .skills {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 5%;
+  margin-left: 5%;
+}
+#skills .skills li {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  width: 21%;
+  transition: .6s;
+}
+#skills .skills li:hover {
+  color: var(--pri);
+  transform: scale(1.1);
+}
+@media (max-width:992px){
+  #skills .skills {
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+@media (max-width:576px){
+  #skills .skills {
+    grid-template-columns: 40% 40%;
+  }
+  #skills .skills li {
+    font-size: 1rem;
+  }
+}
+/* ----projects ---- */
+#projects {
+  background: url('../images/conL.png') no-repeat center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px 5% 5% 5%;
+}
+#projects h1 {
+  color: var(--pri);
+  text-align: center;
+  text-shadow: var(--black) 2px 5px 10px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+#projects a {
+  text-decoration: none;
+  width: 30%;
+}
+#projects .card {
+  background: var(--pri);
+  color: var(--white);
+  margin-bottom: 40px;
+  transition: .6s;
+}
+#projects .card:hover {
+  transform: scale(1.1);
+  background: var(--light);
+  color: var(--pri);
+}
+#projects .card .card-body p {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+@media (max-width:992px){
+  #projects a {
+    width: 45%;
+  }
+}
+@media (max-width:576px){
+  #projects a {
+    width: 85%;
+  }
+}
+/* ----footer ---- */
+footer {
+  background: rgba(21,25,29,.5);
+  color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+footer .modeD{
+  background: var(--dark);
+  border: 5px solid var(--black);
+  border-radius: 50px;
+  width: 7%;
+  height: 40px;
+  padding: 2px;
+}
+footer .modeD .active {
+  background: var(--black);
+  clip-path: circle(25% at bottom 50% right 20%);
+  height: 25px;
+  width: 100%;
+  transition: .6s;
+}
+footer .modeD .noActive {
+  background: var(--black);
+  clip-path: circle(25% at bottom 50% left 20%);
+  height: 25px;
+  width: 100%;
+  transition: .6s;
+}
+footer select {
+  background: var(--black);
+  color: var(--white);
+}
+@media (max-width: 992px){
+  footer .modeD{
+    border: 4px solid var(--black);
+    width: 12%;
+    height: 35px;
+  }
+}
+@media (max-width: 576px){
+  footer .modeD{
+    border: 3px solid var(--black);
+    width: 19%;
+    height: 35px;
+  }
+}
