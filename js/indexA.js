@@ -216,10 +216,10 @@ var foot = document.querySelector("footer");
 function b() {
   if(toggle.classList[0] === "active" || toggle.classList[1] === "active"){
     toggle.classList.replace("active","noActive");
-    about.style.backgroundImage = 'url("../images/AboutMeL.png")';
-    contact.style.backgroundImage = 'url("../images/conL.png")';
-    skills.style.backgroundImage = 'url("../images/AboutMeL.png")';
-    projects.style.backgroundImage = 'url("../images/conL.png")';
+    about.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/AboutMeL.png")';
+    contact.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/conL.png")';
+    skills.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/AboutMeL.png")';
+    projects.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/conL.png")';
     nav.style.background = "rgba(216, 217, 218,.7)";
     show.style.background = "rgba(216, 217, 218,.7)";
     varia.style.setProperty("--black","#FFF");
@@ -229,10 +229,10 @@ function b() {
   }
   else if(toggle.classList[0] === "noActive" || toggle.classList[1] === "noActive"){
     toggle.classList.replace("noActive","active");
-    about.style.backgroundImage = 'url("../images/AboutMeD.png")'
-    contact.style.backgroundImage = 'url("../images/conD.png")'
-    skills.style.backgroundImage = 'url("../images/AboutMeD.png")'
-    projects.style.backgroundImage = 'url("../images/conD.png")'
+    about.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/AboutMeD.png")'
+    contact.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/conD.png")'
+    skills.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/AboutMeD.png")'
+    projects.style.backgroundImage = 'url("https://chouchou77.github.io/PORTFOLIO/images/conD.png")'
     nav.style.background = "rgba(21, 25, 29,.7)";
     show.style.background = "rgba(21, 25, 29,.7)";
     varia.style.setProperty("--black","#000");
