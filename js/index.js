@@ -126,7 +126,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/1.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/1.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
@@ -135,7 +135,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/2.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/2.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
@@ -144,7 +144,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/3.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/3.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
@@ -153,7 +153,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/4.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/4.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
@@ -162,7 +162,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/5.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/5.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
@@ -171,7 +171,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../images/6.png",
+    src: "https://chouchou77.github.io/PORTFOLIO/images/6.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"
