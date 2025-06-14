@@ -69,32 +69,19 @@ function Home() {
 function AboutMe() {
   return /*#__PURE__*/React.createElement("section", {
     id: "about_me"
-  }, /*#__PURE__*/React.createElement("h1", null, "ABOUT ME"), /*#__PURE__*/React.createElement("p", null, "my name is ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "chihab eddin khalfaoui"), ", im 18 from city of constantine, Algeria. I'm ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "front end developer"), ", i have 3 years of experience in bulding projects web and front end ,and i have ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "many skills"), " ,and I have the potential to ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "learn quickly")," I am fluent in " ,/*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "Arabic and English and French"),", I have some certificates from" ,/*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "Free Code Camp"),"this is ",/*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/responsive-web-design"
-  }, "certification in html&css")," and this ",/*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/javascript-algorithms-and-data-structures"
-  }, "certification in js"),",and this ",/*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/front-end-development-libraries"
-  }, "certification in library and frameWork"),", finally this",React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/data-visualization"
-  }, "certification in d3 frameWork and use API's")," .I am available for any job, full-time, part-time or freelance "));
+  }, /*#__PURE__*/React.createElement("h1", null, "ABOUT ME"), /*#__PURE__*/React.createElement("p", null, 
+    "I'm ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "Chihab Eddin Khalfaoui"), 
+    ", a web developer with a solid background in ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "front-end and back-end technologies"), 
+    ". I’m passionate about building ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "efficient and innovative digital solutions"), 
+    ". I have experience with ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "HTML, CSS, JavaScript, React, PHP, and Laravel"), 
+    ", and I’m always eager to improve my skills and stay up to date with the latest technologies. I’ve developed full-stack projects that include ", 
+    /*#__PURE__*/React.createElement("span", { className: "mar" }, "user interfaces, databases, and authentication systems"), 
+    ". I'm driven by the desire to turn ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "ideas into valuable digital products"), 
+    ", and I believe that ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "continuous learning and hands-on experience"), 
+    " are the keys to excellence in this field."
+  ));
 }
+
 function Contact() {
   return /*#__PURE__*/React.createElement("section", {
     id: "contact"
@@ -129,7 +116,7 @@ function Skills() {
     id: "skills"
   }, /*#__PURE__*/React.createElement("h1", null, "SKILLS"), /*#__PURE__*/React.createElement("ul", {
     class: "skills"
-  }, /*#__PURE__*/React.createElement("li", null, "HTML"), /*#__PURE__*/React.createElement("li", null, "CSS"), /*#__PURE__*/React.createElement("li", null, "JS(ES6)"), /*#__PURE__*/React.createElement("li", null, "AJAX&JSON"), /*#__PURE__*/React.createElement("li", null, "API'S"), /*#__PURE__*/React.createElement("li", null, "GIT&GITHUB"), /*#__PURE__*/React.createElement("li", null, "BOTSTRAP"), /*#__PURE__*/React.createElement("li", null, "jQUERY"), /*#__PURE__*/React.createElement("li", null, "SCSS"), /*#__PURE__*/React.createElement("li", null, "TYPESCRIPT"), /*#__PURE__*/React.createElement("li", null, "ReqctJS"),React.createElement("li", null, "D3"), /*#__PURE__*/React.createElement("li", null, "REDUX")));
+  }, /*#__PURE__*/React.createElement("li", null, "HTML"), /*#__PURE__*/React.createElement("li", null, "CSS"), /*#__PURE__*/React.createElement("li", null, "JS(ES6)"), /*#__PURE__*/React.createElement("li", null, "AJAX&JSON"), /*#__PURE__*/React.createElement("li", null, "API'S"), /*#__PURE__*/React.createElement("li", null, "GIT&GITHUB"), /*#__PURE__*/React.createElement("li", null, "BOTSTRAP"), /*#__PURE__*/React.createElement("li", null, "jQUERY"), /*#__PURE__*/React.createElement("li", null, "SCSS"), /*#__PURE__*/React.createElement("li", null, "TYPESCRIPT"), /*#__PURE__*/React.createElement("li", null, "ReactJS"),React.createElement("li", null, "D3"), /*#__PURE__*/React.createElement("li", null, "REDUX"), /*#__PURE__*/React.createElement("li", null, "PHP"), /*#__PURE__*/React.createElement("li", null, "laravel")));
 }
 function Projects() {
   return /*#__PURE__*/React.createElement("section", {
@@ -139,7 +126,7 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "https://chouchou77.000webhostapp.com/PORTFOLIO/images/1.png",
+    src: "../images/1.png",
     className: "card-img"
   }), /*#__PURE__*/React.createElement("div", {
     className: "card-body"

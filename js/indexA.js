@@ -69,33 +69,12 @@ function HomeA() {
 function AboutMeA() {
   return /*#__PURE__*/React.createElement("section", {
     id: "about_me"
-  }, /*#__PURE__*/React.createElement("h1", null, "عني"), /*#__PURE__*/React.createElement("p", null, "اسمي ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "شهاب الدين خلفاوي"), "، عمري 18 عامًا من مدينة قسنطينة، الجزائر. أنا ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "مطور واجهات أمامية"), "، لدي 3 سنوات من الخبرة في بناء المشاريع الويب والواجهات الأمامية، ولدي ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "العديد من المهارات"), "، ولدي القدرة على ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "التعلم بسرعة"), " أنا أتقن ", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "العربية والإنجليزية والفرنسية"), " لدي بعض الشهادات من", /*#__PURE__*/React.createElement("span", {
-    className: "mar"
-  }, "Free Code Camp"), " هذه هي ", /*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/responsive-web-design"
-  }, "شهادة في بناء صفحات ويب"), " وهذه ", /*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/javascript-algorithms-and-data-structures"
-  }, "شهادة في الجافاسكريبت"), " و هذه ", /*#__PURE__*/React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/front-end-development-libraries"
-  }, "شهادة في المكتبات و الأطر")," و أخيرا هذه " ,React.createElement("a", {
-    className: "mar",
-    href: "https://freecodecamp.org/certification/Chouchou77/data-visualization"
-  }, "شهادة في الدي3 و واجهة برمجة التطبيقات"),
-  ".أنا متاح لأي وظيفة، بدوام كامل، بدوام جزئي أو عمل حر "));
+  }, /*#__PURE__*/React.createElement("h1", null, "عني"), /*#__PURE__*/React.createElement("p", null, 
+    "أنا ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "شهاب الدين خلفاوي"), "، مطوّر ويب بخلفية قوية في تقنيات ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "الفرونت إند والباك إند"), "، أعمل بشغف على بناء حلول رقمية ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "فعّالة ومبتكرة"), ". أمتلك خبرة في ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "HTML، CSS، JavaScript، React، PHP، وLaravel"), "، وأهتم دائمًا بتطوير مهاراتي ومواكبة أحدث التقنيات. أنجزت مشاريع متكاملة تشمل ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "واجهات الاستخدام، قواعد البيانات، وأنظمة الدخول"), ". أسعى باستمرار لتحويل ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "الأفكار إلى منتجات رقمية ذات قيمة"), "، وأؤمن بأن ", /*#__PURE__*/React.createElement("span", { className: "mar" }, "التعلّم المستمر والتجربة"), " هما مفتاحا التميز في هذا المجال."
+  ));
 }
+
+
 function ContactA() {
   return /*#__PURE__*/React.createElement("section", {
     id: "contact"
@@ -106,19 +85,19 @@ function ContactA() {
   }, /*#__PURE__*/React.createElement("i", {
     className: "fa-solid fa-at"
   }), /*#__PURE__*/React.createElement("p", null, "khalfawi331@gmail.com"))), /*#__PURE__*/React.createElement("a", {
-    href: "wa.me/213794433372?text="
+    href: "https://wa.me/213794433372?text="
   }, /*#__PURE__*/React.createElement("div", {
     className: "con whatsapp"
   }, /*#__PURE__*/React.createElement("i", {
     className: "fa-brands fa-whatsapp"
   }), /*#__PURE__*/React.createElement("p", null, "+213794433372"))), /*#__PURE__*/React.createElement("a", {
-    href: "2u.pw/k8tE0HPU"
+    href: "https://2u.pw/k8tE0HPU"
   }, /*#__PURE__*/React.createElement("div", {
     className: "con viber"
   }, /*#__PURE__*/React.createElement("i", {
     className: "fa-brands fa-viber"
   }), /*#__PURE__*/React.createElement("p", null, "+213794433372"))), /*#__PURE__*/React.createElement("a", {
-    href: "t.me/+213794433372"
+    href: "https://t.me/+213794433372"
   }, /*#__PURE__*/React.createElement("div", {
     className: "con telegram"
   }, /*#__PURE__*/React.createElement("i", {
@@ -130,7 +109,7 @@ function SkillsA() {
     id: "skills"
   }, /*#__PURE__*/React.createElement("h1", null, "مهارات"), /*#__PURE__*/React.createElement("ul", {
     class: "skills"
-  }, /*#__PURE__*/React.createElement("li", null, "HTML"), /*#__PURE__*/React.createElement("li", null, "CSS"), /*#__PURE__*/React.createElement("li", null, "JS(ES6)"), /*#__PURE__*/React.createElement("li", null, "AJAX&JSON"), /*#__PURE__*/React.createElement("li", null, "API'S"), /*#__PURE__*/React.createElement("li", null, "GIT&GITHUB"), /*#__PURE__*/React.createElement("li", null, "BOTSTRAP"), /*#__PURE__*/React.createElement("li", null, "jQUERY"), /*#__PURE__*/React.createElement("li", null, "SCSS"), /*#__PURE__*/React.createElement("li", null, "TYPESCRIPT"), /*#__PURE__*/React.createElement("li", null, "ReqctJS"), React.createElement("li", null, "D3"),/*#__PURE__*/React.createElement("li", null, "REDUX")));
+  }, /*#__PURE__*/React.createElement("li", null, "HTML"), /*#__PURE__*/React.createElement("li", null, "CSS"), /*#__PURE__*/React.createElement("li", null, "JS(ES6)"), /*#__PURE__*/React.createElement("li", null, "AJAX&JSON"), /*#__PURE__*/React.createElement("li", null, "API'S"), /*#__PURE__*/React.createElement("li", null, "GIT&GITHUB"), /*#__PURE__*/React.createElement("li", null, "BOTSTRAP"), /*#__PURE__*/React.createElement("li", null, "jQUERY"), /*#__PURE__*/React.createElement("li", null, "SCSS"), /*#__PURE__*/React.createElement("li", null, "TYPESCRIPT"), /*#__PURE__*/React.createElement("li", null, "ReqctJS"), React.createElement("li", null, "D3"),/*#__PURE__*/React.createElement("li", null, "REDUX"), /*#__PURE__*/React.createElement("li", null, "PHP"), /*#__PURE__*/React.createElement("li", null, "laravel")));
 }
 function ProjectsA() {
   return /*#__PURE__*/React.createElement("section", {
